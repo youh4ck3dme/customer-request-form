@@ -1,0 +1,14 @@
+{
+    "post_title": "Dopytový formulár (customers)",
+    "post_content": "<!-- wp:jet-forms\/hidden-field {\"name\":\"query_id\"} \/-->\n\n<!-- wp:jet-forms\/hidden-field {\"value\":{\"groups\":[]},\"field_value\":\"referer_url\",\"name\":\"query_url\"} \/-->\n\n<!-- wp:jet-forms\/text-field {\"label\":\"Meno\",\"name\":\"customer_name\",\"required\":true} \/-->\n\n<!-- wp:jet-forms\/text-field {\"field_type\":\"tel\",\"label\":\"Mobil\",\"name\":\"customer_phone\",\"required\":true} \/-->\n\n<!-- wp:jet-forms\/text-field {\"field_type\":\"email\",\"label\":\"Email\",\"name\":\"customer_email\",\"required\":true} \/-->\n\n<!-- wp:jet-forms\/textarea-field {\"maxlength\":\"160\",\"label\":\"Správa\",\"name\":\"customer_message\",\"placeholder\":\"Limit 160 znakov ...\"} \/-->\n\n<!-- wp:jet-forms\/submit-field {\"label\":\"Odoslať\"} \/-->",
+    "meta_input": {
+        "_jf_actions": "[{\"id\":7474,\"settings\":{\"save_record\":{\"save_user_data\":true}},\"type\":\"save_record\",\"conditions\":[],\"events\":[],\"index\":1,\"chosen\":false,\"selected\":false},{\"id\":9908,\"settings\":{\"rest_api_request\":{\"authorization\":true,\"url\":\"https:\/\/api.gruppa.cloud\/wp-json\/jet-cct\/queries\/\",\"auth_type\":\"application-password\",\"application_pass\":\"superadmin:wRK2 Kvkx pBSu LSuP ZC75 cBI7\"}},\"type\":\"rest_api_request\",\"conditions\":[],\"events\":[],\"index\":2,\"chosen\":false,\"selected\":false}]",
+        "_jf_args": "{\"load_nonce\":\"hide\"}",
+        "_jf_messages": "{\"success\":\"Done\",\"failed\":\"Failed\",\"validation_failed\":\"\",\"captcha_failed\":\"\",\"invalid_email\":\"\",\"empty_field\":\"\",\"internal_error\":\"\",\"upload_max_files\":\"\",\"upload_max_size\":\"\",\"upload_mime_types\":\"\"}",
+        "_jf_preset": "{}",
+        "_jf_recaptcha": "{}",
+        "_jf_validation": "{}",
+        "footnotes": "",
+        "_edit_last": "1"
+    }
+}
